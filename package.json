@@ -1,0 +1,29 @@
+{
+  "name": "booking",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cd client && react-scripts start",
+    "build": "cd client && react-scripts build",
+    "test": "cd client && react-scripts test",
+    "eject": "cd client && react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },"proxy":"https://poetic-crisp-4c951c.netlify.app/api"
+}
